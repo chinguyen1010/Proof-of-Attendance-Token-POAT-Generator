@@ -1,0 +1,14 @@
+{
+  "name": "poat-generator",
+  "version": "1.0.0",
+  "description": "Proof-of-Attendance Token (POAT) Generator - secret-code based on-chain attendance tracking.",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
